@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">OnlySends</string>
     <string name="sign_up">Sign Up</string>
+    <string name="have_account">Already Registered, Sign In!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Not Registered, Sign Up!</string>
 </resources>
