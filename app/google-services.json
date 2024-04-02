@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411968729247",
+    "project_id": "onlysends-665db",
+    "storage_bucket": "onlysends-665db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411968729247:android:68862edbf6115b347d72aa",
+        "android_client_info": {
+          "package_name": "com.example.onlysends"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDljJa4TyqMgrav1jVP8HElQcIIVUo93CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
