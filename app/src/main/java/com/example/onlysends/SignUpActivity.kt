@@ -73,8 +73,8 @@ class SignUpActivity : AppCompatActivity() {
     private suspend fun signInGoogle() {
         val result = oneTapClient.beginSignIn(signInRequest).await()
         Log.d(TAG, "signInGoogle()")
-//        val intentSenderRequest = IntentSenderRequest.Builder(result.pendingIntent).build()
-//        activityResultLauncher.launch(intentSenderRequest)
+        val intentSenderRequest = IntentSenderRequest.Builder(result.pendingIntent).build()
+        activityResultLauncher.launch(intentSenderRequest)
     }
 
     private val activityResultLauncher: ActivityResultLauncher<IntentSenderRequest> =
